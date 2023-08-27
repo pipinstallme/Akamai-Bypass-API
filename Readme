@@ -1,0 +1,12 @@
+Host the page on localhost or somewhere where you have full admin permission. { because we need to execute scripts }
+
+If you're a config maker or you know how to deal with HTTP requests, this is for you.
+
+monitor the http request once you host the page, implement that in your tool/config.
+
+once you click execute, you'll get the acf sensordata in the response, parse it and use in your configs/tools as you wish.
+
+the akamai bypass jar file is a custom made script and it supports only 100 requests in 10 minutes, so i created this so that a new acf-sensordata is created without limits.
+
+[ this is not properly tested so you might get some BUGS! ]
+( this script doesn't work for all the AKAMAI BYPASS, SO TRY YOUR LUCK )
